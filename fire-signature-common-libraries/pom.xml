@@ -4,7 +4,7 @@
   <modelVersion>4.0.0</modelVersion>
   <groupId>es.gob.fire</groupId>
   <artifactId>fire-signature-common-libraries</artifactId>
-  <version>2.1</version>
+  <version>2.1.1-SNAPSHOT</version>
   <packaging>jar</packaging>
 
   <name>fire-signature-common-libraries</name>
@@ -25,6 +25,12 @@
 		<dependency>
 			<groupId>es.gob.afirma</groupId>
 			<artifactId>afirma-server-triphase-signer-core</artifactId>
+			<version>1.6</version>
+		</dependency>
+
+		<dependency>
+			<groupId>es.gob.afirma</groupId>
+			<artifactId>afirma-crypto-core-pkcs7-tsp</artifactId>
 			<version>1.6</version>
 		</dependency>
 
